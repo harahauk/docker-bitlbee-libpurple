@@ -9,6 +9,8 @@ RUN addgroup -g 101 -S bitlbee \
  && apk add --no-cache --update tzdata \
  	libpurple \
 	libpurple-xmpp \
+        libsasl \
+        cyrus-sasl-plain \
 	libpurple-oscar \
 	libpurple-bonjour \
 	json-glib \
